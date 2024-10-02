@@ -12,7 +12,6 @@ The project consists of two main parts:
 2. **Backend**: A RESTful API built with Express.js and MongoDB (Mongoose).
    - [Backend Repository](https://github.com/khaouitiabdelhakim/gallery-store-api)
 
----
 
 ## Features
 
@@ -23,7 +22,7 @@ The project consists of two main parts:
 - Responsive design with Tailwind CSS
 - Image data stored in MongoDB
 
----
+
 
 ## Tech Stack
 
@@ -40,8 +39,6 @@ The project consists of two main parts:
 - **MongoDB**: A NoSQL database for storing images and metadata.
 - **Mongoose**: An ODM library for MongoDB and Node.js.
 - **Multer**: A middleware for handling multipart/form-data, primarily used for uploading files.
-
----
 
 ## Getting Started
 
@@ -93,7 +90,6 @@ The project consists of two main parts:
 4. MongoDB Setup:
    Make sure you have a running MongoDB instance. The backend connects to the MongoDB instance at `mongodb://localhost:27017/gallery`. If you want to use a different MongoDB URI, modify the connection string in `api.js` accordingly.
 
----
 
 ## API Endpoints
 
@@ -107,7 +103,7 @@ The project consists of two main parts:
 - **DELETE /images/:id**: Delete an image by its ID
   - Response: 204 No Content on success
 
----
+
 
 ## Frontend Usage
 
@@ -120,7 +116,6 @@ The project consists of two main parts:
 - **Deleting an Image**: 
   Clicking the delete icon removes the image from both the frontend and backend.
 
----
 
 ## Deployment
 
